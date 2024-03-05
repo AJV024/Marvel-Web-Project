@@ -1,0 +1,84 @@
+/* Add or adjust styles as needed */
+body {
+    background-color: darkred;
+    margin: 0; /* Reset default body margin */
+}
+
+.top-boxes {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.top-box {
+    padding: 10px;
+    background-color: darkred;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.top-box a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.top-box a:hover {
+    color: blue;
+}
+
+.title-container {
+    margin-top: 10em; /* Adjust the value to create space */
+    text-align: center;
+    color: white; /* Ensure text color contrasts with the background */
+}
+
+/* Add or adjust styles as needed */
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto; /* Adjust the margin as needed */
+}
+
+.content-image {
+    width: 33%; /* Set the width to 1/3rd of the container */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 10px; /* Add space between image and text */
+}
+
+.content-text {
+    width: 33%; /* Set the width to 1/3rd of the container */
+    text-align: justify;
+    color: white; /* Text color */
+    background-color: darkred; /* Box background color */
+    padding: 15px; /* Add padding for better readability */
+}
+
+/* Add or adjust styles as needed */
+
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto; /* Adjust the margin as needed */
+    max-width: 800px; /* Adjust the maximum width of the content box */
+}
+
+.content-image {
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 300px; /* Set the maximum height */
+}
+
+.content-text {
+    width: 60%; /* Set the width for text content */
+    text-align: justify;
+    color: white; /* Text color */
+    background-color: darkred; /* Box background color */
+    padding: 15px; /* Add padding for better readability */
+}
