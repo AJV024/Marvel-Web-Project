@@ -23,7 +23,7 @@ body {
     border: 1px solid white;
     border-radius: 5px;
 }
-
+/* This code was used to create a box at the top. I needed 3. Each one was a link to one of the three pages */
 
 .top-box a {
     color: white;
@@ -35,7 +35,7 @@ body {
 .top-box a:hover {
     color: blue;
 }
-
+/* This was to establish which color to use, and the code before this was used for the font colors. This contrast was good for the user's vision */
 
 .content-box {
     display: flex;
@@ -52,6 +52,7 @@ body {
     height: auto;
     max-height: 300px;
 }
+/* This was needed to keep the images sized appropriately. Without this, the images were everywhere in dimensions */ 
 
 
 .content-header {
@@ -61,7 +62,7 @@ body {
     padding: 15px;
     margin-top: 60px; 
 }
-
+/* The header and text needed different padding and alginment */
 
 .content-text {
     width: 60%;
