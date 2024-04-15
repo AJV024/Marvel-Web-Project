@@ -13,9 +13,10 @@ app.use(express.static('public'));
 const users = [];
 
 // Routes
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
+app.get('/login', (req, res) => {
+    res.sendFile(__dirname + '/login.html');
 });
+
 
 app.post('/register', async (req, res) => {
     try {
