@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
- 
     var homeLink = document.querySelector(".home-link");
     var comicBookLink = document.querySelector(".comicbook-link");
     var cinematicPoliticsLink = document.querySelector(".cinematicpolitics-link");
